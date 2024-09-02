@@ -1,0 +1,40 @@
+name: peaks
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2 # Na prácu s HTTP požiadavkami
+  firebase_core: ^3.4.0 # Na použitie Firebase
+  firebase_auth: ^5.2.0 # Na autentifikáciu Firebase
+  cloud_firestore: ^5.0.0 # Na používanie Firestore databázy
+  fl_chart: ^0.69.0 # Na tvorbu grafov a vizualizáciu dát
+  shared_preferences: ^2.0.15 # Na ukladanie nastavení a dát
+  # Pridajte ďalšie závislosti podľa potreby
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.0 # Na tvorbu mock objektov pre testovanie
+
+# Prípadne ďalšie balíky na testovanie alebo vývoj
+
+
+  flutter_lints: ^4.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
